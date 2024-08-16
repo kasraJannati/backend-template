@@ -24,6 +24,12 @@ export class ConnectionsService {
       const connections: any =
         await this.credoService.agent.connections.getAll();
 
+      // Todo: should be removed
+      for (let i = 0; i < connections.length; i++) {
+        connections[i].index = i + 1;
+      }
+      console.log(connections, 'connections');
+
       // Apply filtering
       let filteredConnections = applyFilter(connections, query?.filter);
 

@@ -37,6 +37,7 @@ import {
   LegacyIndyCredentialFormatService,
 } from '@credo-ts/anoncreds';
 import { anoncreds } from '@hyperledger/anoncreds-nodejs';
+import { SQLWalletModule } from 'src/wallet/SQLWalletModule';
 
 @Injectable()
 export class CredoService {
@@ -75,9 +76,11 @@ export class CredoService {
         }),
 
         // Register the Askar module on the agent
-        askar: new AskarModule({
-          ariesAskar,
-        }),
+        // askar: new AskarModule({
+        //   ariesAskar,
+        // }),
+        SQL: new SQLWalletModule(),
+
         connections: new ConnectionsModule({ autoAcceptConnections: true }),
 
         anoncreds: new AnonCredsModule({
