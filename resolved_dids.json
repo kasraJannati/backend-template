@@ -29,10 +29,13 @@
         "metadata": {
             "resolver_type": "native",
             "resolver": "LegacyPeerDIDResolver",
-            "retrieved_time": "2024-08-19T17:09:41Z",
+            "retrieved_time": "2024-08-21T19:29:22Z",
             "duration": 0
         },
-        "id": "62bf1fa5-39ca-4cb7-8347-f08f6bc1bb82"
+        "id": "62bf1fa5-39ca-4cb7-8347-f08f6bc1bb82",
+        "recipientKeyFingerprints": [
+            "LwSjNj2RC4Ns9X23V3TTeN"
+        ]
     },
     {
         "did_document": {
@@ -67,10 +70,13 @@
         "metadata": {
             "resolver_type": "native",
             "resolver": "LegacyPeerDIDResolver",
-            "retrieved_time": "2024-08-19T17:09:41Z",
+            "retrieved_time": "2024-08-21T19:29:22Z",
             "duration": 0
         },
-        "id": "5e7a80b3-11e7-415d-afbf-977d30001f63"
+        "id": "5e7a80b3-11e7-415d-afbf-977d30001f63",
+        "recipientKeyFingerprints": [
+            "CdoqYpoK49izeuQUNz18G2"
+        ]
     },
     {
         "did_document": {
@@ -105,10 +111,13 @@
         "metadata": {
             "resolver_type": "native",
             "resolver": "LegacyPeerDIDResolver",
-            "retrieved_time": "2024-08-19T17:09:41Z",
+            "retrieved_time": "2024-08-21T19:29:22Z",
             "duration": 0
         },
-        "id": "c1801c01-8ca3-4f49-95fc-ccfb7c66fabf"
+        "id": "c1801c01-8ca3-4f49-95fc-ccfb7c66fabf",
+        "recipientKeyFingerprints": [
+            "XcqmC46F6WKAZJDYKfqPoY"
+        ]
     },
     {
         "did_document": {
@@ -143,10 +152,13 @@
         "metadata": {
             "resolver_type": "native",
             "resolver": "LegacyPeerDIDResolver",
-            "retrieved_time": "2024-08-19T17:09:41Z",
+            "retrieved_time": "2024-08-21T19:29:22Z",
             "duration": 0
         },
-        "id": "d6e60033-44cc-4f67-9ea6-2e62336a2137"
+        "id": "d6e60033-44cc-4f67-9ea6-2e62336a2137",
+        "recipientKeyFingerprints": [
+            "VJ4wcjBJuz1XYJKgkvDxuP"
+        ]
     },
     {
         "did_document": {
@@ -181,10 +193,13 @@
         "metadata": {
             "resolver_type": "native",
             "resolver": "LegacyPeerDIDResolver",
-            "retrieved_time": "2024-08-19T17:09:41Z",
+            "retrieved_time": "2024-08-21T19:29:22Z",
             "duration": 0
         },
-        "id": "9e517059-44b7-41a5-bf1a-5c4a715ef992"
+        "id": "9e517059-44b7-41a5-bf1a-5c4a715ef992",
+        "recipientKeyFingerprints": [
+            "8opSuNZaryv9kgikbny9t2"
+        ]
     },
     {
         "did_document": {
@@ -219,10 +234,13 @@
         "metadata": {
             "resolver_type": "native",
             "resolver": "LegacyPeerDIDResolver",
-            "retrieved_time": "2024-08-19T17:09:41Z",
+            "retrieved_time": "2024-08-21T19:29:22Z",
             "duration": 0
         },
-        "id": "49491a43-3dc7-4d0e-b3af-9edab33799ab"
+        "id": "49491a43-3dc7-4d0e-b3af-9edab33799ab",
+        "recipientKeyFingerprints": [
+            "9x81wB89FAn7jS4dB81v5G"
+        ]
     },
     {
         "did_document": {
@@ -257,10 +275,13 @@
         "metadata": {
             "resolver_type": "native",
             "resolver": "LegacyPeerDIDResolver",
-            "retrieved_time": "2024-08-19T17:09:41Z",
+            "retrieved_time": "2024-08-21T19:29:22Z",
             "duration": 0
         },
-        "id": "46e3c7cf-91e5-4df9-b58b-5daa66c578e5"
+        "id": "46e3c7cf-91e5-4df9-b58b-5daa66c578e5",
+        "recipientKeyFingerprints": [
+            "YHE7RYbubcyHaqhbahWnjt"
+        ]
     },
     {
         "did_document": {
@@ -295,10 +316,13 @@
         "metadata": {
             "resolver_type": "native",
             "resolver": "LegacyPeerDIDResolver",
-            "retrieved_time": "2024-08-19T17:09:41Z",
+            "retrieved_time": "2024-08-21T19:29:22Z",
             "duration": 0
         },
-        "id": "7537e4a8-6a0e-4722-827e-14631f496c0d"
+        "id": "7537e4a8-6a0e-4722-827e-14631f496c0d",
+        "recipientKeyFingerprints": [
+            "PWufsF6uyfjKnSHijWcCMo"
+        ]
     },
     {
         "did_document": {
@@ -333,9 +357,53 @@
         "metadata": {
             "resolver_type": "native",
             "resolver": "LegacyPeerDIDResolver",
-            "retrieved_time": "2024-08-19T17:09:41Z",
+            "retrieved_time": "2024-08-21T19:29:22Z",
             "duration": 0
         },
-        "id": "4fefef69-f4f4-4691-8bdd-9bcf316f7a16"
+        "id": "4fefef69-f4f4-4691-8bdd-9bcf316f7a16",
+        "recipientKeyFingerprints": [
+            "MQEqKEioJempcGYup42ocV"
+        ]
+    },
+    {
+        "did_document": {
+            "@context": "https://w3id.org/did/v1",
+            "id": "did:sov:3diRwJhbNR1tWbZmsbmR3o",
+            "authentication": [
+                "did:sov:3diRwJhbNR1tWbZmsbmR3o#1"
+            ],
+            "service": [
+                {
+                    "id": "did:sov:3diRwJhbNR1tWbZmsbmR3o#didcomm-0",
+                    "type": "did-communication",
+                    "priority": 0,
+                    "recipientKeys": [
+                        "did:sov:3diRwJhbNR1tWbZmsbmR3o#1"
+                    ],
+                    "routingKeys": [
+                        "did:key:z6MkiAGAFumGbXRwNPA4paPEnCvBUS8C4yG65Kb1ig8GYX9S#z6MkiAGAFumGbXRwNPA4paPEnCvBUS8C4yG65Kb1ig8GYX9S"
+                    ],
+                    "serviceEndpoint": "https://mediator.digicred.services:3002"
+                }
+            ],
+            "verificationMethod": [
+                {
+                    "id": "did:sov:3diRwJhbNR1tWbZmsbmR3o#1",
+                    "type": "Ed25519VerificationKey2018",
+                    "controller": "did:sov:3diRwJhbNR1tWbZmsbmR3o",
+                    "publicKeyBase58": "2SEbpfCWTZ84Lkg5pXfrBeHkAG3VpEVp3wpQL37Zzcoo"
+                }
+            ]
+        },
+        "metadata": {
+            "resolver_type": "native",
+            "resolver": "LegacyPeerDIDResolver",
+            "retrieved_time": "2024-08-21T19:29:22Z",
+            "duration": 0
+        },
+        "id": "7b06e0b8-4dcc-465f-8a64-1876f0d5db8e",
+        "recipientKeyFingerprints": [
+            "3diRwJhbNR1tWbZmsbmR3o"
+        ]
     }
 ]

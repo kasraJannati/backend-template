@@ -145,6 +145,22 @@
       "alias": "undefined -studentID- 0514270"
     },
     {
+      "state": "active",
+      "created_at": "2024-08-20T17:13:13.266016Z",
+      "updated_at": "2024-08-20T17:13:23.237462Z",
+      "connection_id": "7b06e0b8-4dcc-465f-8a64-1876f0d5db8e",
+      "my_did": "JvKTMtEi7FTch5mUdkDDwo",
+      "their_did": "3diRwJhbNR1tWbZmsbmR3o",
+      "their_label": "DigiCred Wallet",
+      "their_role": "invitee",
+      "connection_protocol": "connections/1.0",
+      "rfc23_state": "completed",
+      "invitation_key": "GRPro1yvQ7yxGb2aE8aRNknCE6opFzGGQJtBpuPQ6WPn",
+      "accept": "auto",
+      "invitation_mode": "once",
+      "alias": "Aug20"
+    },
+    {
       "state": "invitation",
       "created_at": "2024-07-18T17:53:16.454870Z",
       "updated_at": "2024-07-18T17:53:16.454870Z",
@@ -1117,6 +1133,20 @@
       "accept": "auto",
       "invitation_mode": "once",
       "alias": "undefined -studentID- 0514270"
+    },
+    {
+      "state": "invitation",
+      "created_at": "2024-08-16T20:05:31.856267Z",
+      "updated_at": "2024-08-16T20:05:31.856267Z",
+      "connection_id": "564cec66-02ef-476a-bf70-bf4da9a9354d",
+      "their_role": "invitee",
+      "connection_protocol": "didexchange/1.0",
+      "rfc23_state": "invitation-sent",
+      "invitation_key": "H5ZgDgsWKPpqnZ1axjsiKTHvGCW6XDvbBfXtVg6VbTsZ",
+      "invitation_msg_id": "fa6bf57b-627f-4df6-b95e-29b5f5c77faa",
+      "accept": "auto",
+      "invitation_mode": "once",
+      "alias": "Barry"
     }
   ]
 }

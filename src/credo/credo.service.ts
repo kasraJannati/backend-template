@@ -246,8 +246,11 @@ export class CredoService {
     credentialDefinitionId: string,
     attributes: any,
   ) {
-    const [connectionRecord] =
-      await this.agent.connections.findAllByOutOfBandId(connectionId);
+    // const [connectionRecord] =
+    //   await this.agent.connections.findAllByOutOfBandId(connectionId);
+
+    const connectionRecord =
+      await this.agent.connections.findById(connectionId);
 
     if (!connectionRecord) {
       throw new Error(
