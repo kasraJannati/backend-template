@@ -51,10 +51,15 @@ export class MessageService {
       this.logger.log(
         `Sending message to connection ID ${connectionId}: ${message}`,
       );
-      const [connectionRecord] =
-        await this.credoService.agent.connections.findAllByOutOfBandId(
-          connectionId,
-        );
+      // const [connectionRecord] =
+      //   await this.credoService.agent.connections.findAllByOutOfBandId(
+      //     connectionId,
+      //   );
+
+      const connectionRecord =
+        await this.credoService.agent.connections.findById(connectionId);
+      console.log('connectionRecord:', connectionRecord);
+
       if (!connectionRecord) {
         throw new NotFoundException(
           `Connection with ID ${connectionId} not found.`,
