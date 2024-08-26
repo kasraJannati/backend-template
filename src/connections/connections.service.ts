@@ -235,4 +235,19 @@ export class ConnectionsService {
       throw error;
     }
   }
+
+  async didQuery(did: string): Promise<any> {
+    try {
+      this.logger.log(`Retrieving connections by query: ${did}`);
+      const result = await this.credoService.agent.dids.resolve(did);
+      if (!result) {
+        this.logger.warn(`Connections matching query ${did} not found`);
+      }
+      console.log('result:', result);
+      return result;
+    } catch (error) {
+      this.logger.error(`Failed to retrieve connections by query`);
+      throw error;
+    }
+  }
 }

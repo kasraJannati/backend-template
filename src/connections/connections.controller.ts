@@ -281,4 +281,14 @@ export class ConnectionsController {
   async deleteById(@Param('connectionId') connectionId: string) {
     return this.connectionsService.deleteById(connectionId);
   }
+
+  /**
+   * didQuery.
+   */
+  @Post(':did')
+  @ApiOperation({ summary: '...' })
+  @ApiOkResponse({ description: '...' })
+  async didQuery(@Param('did') did: string) {
+    return this.connectionsService.didQuery(did);
+  }
 }

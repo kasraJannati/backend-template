@@ -1,409 +1,349 @@
 [
-    {
-        "did_document": {
-            "@context": "https://w3id.org/did/v1",
-            "id": "did:sov:LwSjNj2RC4Ns9X23V3TTeN",
-            "authentication": [
-                "did:sov:LwSjNj2RC4Ns9X23V3TTeN#1"
-            ],
-            "service": [
-                {
-                    "id": "did:sov:LwSjNj2RC4Ns9X23V3TTeN#didcomm-0",
-                    "type": "did-communication",
-                    "priority": 0,
-                    "recipientKeys": [
-                        "did:sov:LwSjNj2RC4Ns9X23V3TTeN#1"
-                    ],
-                    "serviceEndpoint": "http://host.docker.internal:9030"
-                }
-            ],
-            "verificationMethod": [
-                {
-                    "id": "did:sov:LwSjNj2RC4Ns9X23V3TTeN#1",
-                    "type": "Ed25519VerificationKey2018",
-                    "controller": "did:sov:LwSjNj2RC4Ns9X23V3TTeN",
-                    "publicKeyBase58": "BsJTrSSEsgcdsQDocrD5kBDMEhzAPFnZDCMfym9Febg4"
-                }
-            ]
-        },
-        "metadata": {
-            "resolver_type": "native",
-            "resolver": "LegacyPeerDIDResolver",
-            "retrieved_time": "2024-08-21T19:29:22Z",
-            "duration": 0
-        },
-        "id": "62bf1fa5-39ca-4cb7-8347-f08f6bc1bb82",
-        "recipientKeyFingerprints": [
-            "LwSjNj2RC4Ns9X23V3TTeN"
-        ]
+  {
+    "did_document": {
+      "@context": "https://w3id.org/did/v1",
+      "id": "did:sov:LwSjNj2RC4Ns9X23V3TTeN",
+      "authentication": ["did:sov:LwSjNj2RC4Ns9X23V3TTeN#1"],
+      "service": [
+        {
+          "id": "did:sov:LwSjNj2RC4Ns9X23V3TTeN#didcomm-0",
+          "type": "did-communication",
+          "priority": 0,
+          "recipientKeys": ["did:sov:LwSjNj2RC4Ns9X23V3TTeN#1"],
+          "serviceEndpoint": "http://host.docker.internal:9030"
+        }
+      ],
+      "verificationMethod": [
+        {
+          "id": "did:sov:LwSjNj2RC4Ns9X23V3TTeN#1",
+          "type": "Ed25519VerificationKey2018",
+          "controller": "did:sov:LwSjNj2RC4Ns9X23V3TTeN",
+          "publicKeyBase58": "BsJTrSSEsgcdsQDocrD5kBDMEhzAPFnZDCMfym9Febg4"
+        }
+      ]
     },
-    {
-        "did_document": {
-            "@context": "https://w3id.org/did/v1",
-            "id": "did:sov:CdoqYpoK49izeuQUNz18G2",
-            "authentication": [
-                "did:sov:CdoqYpoK49izeuQUNz18G2#1"
-            ],
-            "service": [
-                {
-                    "id": "did:sov:CdoqYpoK49izeuQUNz18G2#didcomm-0",
-                    "type": "did-communication",
-                    "priority": 0,
-                    "recipientKeys": [
-                        "did:sov:CdoqYpoK49izeuQUNz18G2#1"
-                    ],
-                    "routingKeys": [
-                        "did:key:z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB#z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB"
-                    ],
-                    "serviceEndpoint": "https://mediator.digicred.services:3002"
-                }
-            ],
-            "verificationMethod": [
-                {
-                    "id": "did:sov:CdoqYpoK49izeuQUNz18G2#1",
-                    "type": "Ed25519VerificationKey2018",
-                    "controller": "did:sov:CdoqYpoK49izeuQUNz18G2",
-                    "publicKeyBase58": "7LnzoDVCidvLF6pFLkkNZkxUmWRZT3RB17y3SGEAFK8i"
-                }
-            ]
-        },
-        "metadata": {
-            "resolver_type": "native",
-            "resolver": "LegacyPeerDIDResolver",
-            "retrieved_time": "2024-08-21T19:29:22Z",
-            "duration": 0
-        },
-        "id": "5e7a80b3-11e7-415d-afbf-977d30001f63",
-        "recipientKeyFingerprints": [
-            "CdoqYpoK49izeuQUNz18G2"
-        ]
+    "metadata": {
+      "resolver_type": "native",
+      "resolver": "LegacyPeerDIDResolver",
+      "retrieved_time": "2024-08-22T15:58:57Z",
+      "duration": 0
     },
-    {
-        "did_document": {
-            "@context": "https://w3id.org/did/v1",
-            "id": "did:sov:XcqmC46F6WKAZJDYKfqPoY",
-            "authentication": [
-                "did:sov:XcqmC46F6WKAZJDYKfqPoY#1"
-            ],
-            "service": [
-                {
-                    "id": "did:sov:XcqmC46F6WKAZJDYKfqPoY#didcomm-0",
-                    "type": "did-communication",
-                    "priority": 0,
-                    "recipientKeys": [
-                        "did:sov:XcqmC46F6WKAZJDYKfqPoY#1"
-                    ],
-                    "routingKeys": [
-                        "did:key:z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB#z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB"
-                    ],
-                    "serviceEndpoint": "https://mediator.digicred.services:3002"
-                }
-            ],
-            "verificationMethod": [
-                {
-                    "id": "did:sov:XcqmC46F6WKAZJDYKfqPoY#1",
-                    "type": "Ed25519VerificationKey2018",
-                    "controller": "did:sov:XcqmC46F6WKAZJDYKfqPoY",
-                    "publicKeyBase58": "Hgtpv2WDhPkkFbs95Nnr4oX6P3BV1W1hWaqhCz4h66BE"
-                }
-            ]
-        },
-        "metadata": {
-            "resolver_type": "native",
-            "resolver": "LegacyPeerDIDResolver",
-            "retrieved_time": "2024-08-21T19:29:22Z",
-            "duration": 0
-        },
-        "id": "c1801c01-8ca3-4f49-95fc-ccfb7c66fabf",
-        "recipientKeyFingerprints": [
-            "XcqmC46F6WKAZJDYKfqPoY"
-        ]
+    "id": "62bf1fa5-39ca-4cb7-8347-f08f6bc1bb82",
+    "recipientKeyFingerprints": ["LwSjNj2RC4Ns9X23V3TTeN"]
+  },
+  {
+    "did_document": {
+      "@context": "https://w3id.org/did/v1",
+      "id": "did:sov:CdoqYpoK49izeuQUNz18G2",
+      "authentication": ["did:sov:CdoqYpoK49izeuQUNz18G2#1"],
+      "service": [
+        {
+          "id": "did:sov:CdoqYpoK49izeuQUNz18G2#didcomm-0",
+          "type": "did-communication",
+          "priority": 0,
+          "recipientKeys": ["did:sov:CdoqYpoK49izeuQUNz18G2#1"],
+          "routingKeys": [
+            "did:key:z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB#z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB"
+          ],
+          "serviceEndpoint": "https://mediator.digicred.services:3002"
+        }
+      ],
+      "verificationMethod": [
+        {
+          "id": "did:sov:CdoqYpoK49izeuQUNz18G2#1",
+          "type": "Ed25519VerificationKey2018",
+          "controller": "did:sov:CdoqYpoK49izeuQUNz18G2",
+          "publicKeyBase58": "7LnzoDVCidvLF6pFLkkNZkxUmWRZT3RB17y3SGEAFK8i"
+        }
+      ]
     },
-    {
-        "did_document": {
-            "@context": "https://w3id.org/did/v1",
-            "id": "did:sov:VJ4wcjBJuz1XYJKgkvDxuP",
-            "authentication": [
-                "did:sov:VJ4wcjBJuz1XYJKgkvDxuP#1"
-            ],
-            "service": [
-                {
-                    "id": "did:sov:VJ4wcjBJuz1XYJKgkvDxuP#didcomm-0",
-                    "type": "did-communication",
-                    "priority": 0,
-                    "recipientKeys": [
-                        "did:sov:VJ4wcjBJuz1XYJKgkvDxuP#1"
-                    ],
-                    "routingKeys": [
-                        "did:key:z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB#z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB"
-                    ],
-                    "serviceEndpoint": "https://mediator.digicred.services:3002"
-                }
-            ],
-            "verificationMethod": [
-                {
-                    "id": "did:sov:VJ4wcjBJuz1XYJKgkvDxuP#1",
-                    "type": "Ed25519VerificationKey2018",
-                    "controller": "did:sov:VJ4wcjBJuz1XYJKgkvDxuP",
-                    "publicKeyBase58": "GRSPpLQtgGGmKNSmw9YWvVKh14V9RhLvw9gP5Re9mMcY"
-                }
-            ]
-        },
-        "metadata": {
-            "resolver_type": "native",
-            "resolver": "LegacyPeerDIDResolver",
-            "retrieved_time": "2024-08-21T19:29:22Z",
-            "duration": 0
-        },
-        "id": "d6e60033-44cc-4f67-9ea6-2e62336a2137",
-        "recipientKeyFingerprints": [
-            "VJ4wcjBJuz1XYJKgkvDxuP"
-        ]
+    "metadata": {
+      "resolver_type": "native",
+      "resolver": "LegacyPeerDIDResolver",
+      "retrieved_time": "2024-08-22T15:58:57Z",
+      "duration": 1
     },
-    {
-        "did_document": {
-            "@context": "https://w3id.org/did/v1",
-            "id": "did:sov:8opSuNZaryv9kgikbny9t2",
-            "authentication": [
-                "did:sov:8opSuNZaryv9kgikbny9t2#1"
-            ],
-            "service": [
-                {
-                    "id": "did:sov:8opSuNZaryv9kgikbny9t2#didcomm-0",
-                    "type": "did-communication",
-                    "priority": 0,
-                    "recipientKeys": [
-                        "did:sov:8opSuNZaryv9kgikbny9t2#1"
-                    ],
-                    "routingKeys": [
-                        "did:key:z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB#z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB"
-                    ],
-                    "serviceEndpoint": "https://mediator.digicred.services:3002"
-                }
-            ],
-            "verificationMethod": [
-                {
-                    "id": "did:sov:8opSuNZaryv9kgikbny9t2#1",
-                    "type": "Ed25519VerificationKey2018",
-                    "controller": "did:sov:8opSuNZaryv9kgikbny9t2",
-                    "publicKeyBase58": "5FoUKhxZNr25nxJFPmRmtR37MAuuWNLtWYQnHrW3D5NX"
-                }
-            ]
-        },
-        "metadata": {
-            "resolver_type": "native",
-            "resolver": "LegacyPeerDIDResolver",
-            "retrieved_time": "2024-08-21T19:29:22Z",
-            "duration": 0
-        },
-        "id": "9e517059-44b7-41a5-bf1a-5c4a715ef992",
-        "recipientKeyFingerprints": [
-            "8opSuNZaryv9kgikbny9t2"
-        ]
+    "id": "5e7a80b3-11e7-415d-afbf-977d30001f63",
+    "recipientKeyFingerprints": ["CdoqYpoK49izeuQUNz18G2"]
+  },
+  {
+    "did_document": {
+      "@context": "https://w3id.org/did/v1",
+      "id": "did:sov:XcqmC46F6WKAZJDYKfqPoY",
+      "authentication": ["did:sov:XcqmC46F6WKAZJDYKfqPoY#1"],
+      "service": [
+        {
+          "id": "did:sov:XcqmC46F6WKAZJDYKfqPoY#didcomm-0",
+          "type": "did-communication",
+          "priority": 0,
+          "recipientKeys": ["did:sov:XcqmC46F6WKAZJDYKfqPoY#1"],
+          "routingKeys": [
+            "did:key:z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB#z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB"
+          ],
+          "serviceEndpoint": "https://mediator.digicred.services:3002"
+        }
+      ],
+      "verificationMethod": [
+        {
+          "id": "did:sov:XcqmC46F6WKAZJDYKfqPoY#1",
+          "type": "Ed25519VerificationKey2018",
+          "controller": "did:sov:XcqmC46F6WKAZJDYKfqPoY",
+          "publicKeyBase58": "Hgtpv2WDhPkkFbs95Nnr4oX6P3BV1W1hWaqhCz4h66BE"
+        }
+      ]
     },
-    {
-        "did_document": {
-            "@context": "https://w3id.org/did/v1",
-            "id": "did:sov:9x81wB89FAn7jS4dB81v5G",
-            "authentication": [
-                "did:sov:9x81wB89FAn7jS4dB81v5G#1"
-            ],
-            "service": [
-                {
-                    "id": "did:sov:9x81wB89FAn7jS4dB81v5G#didcomm-0",
-                    "type": "did-communication",
-                    "priority": 0,
-                    "recipientKeys": [
-                        "did:sov:9x81wB89FAn7jS4dB81v5G#1"
-                    ],
-                    "routingKeys": [
-                        "did:key:z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB#z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB"
-                    ],
-                    "serviceEndpoint": "https://mediator.digicred.services:3002"
-                }
-            ],
-            "verificationMethod": [
-                {
-                    "id": "did:sov:9x81wB89FAn7jS4dB81v5G#1",
-                    "type": "Ed25519VerificationKey2018",
-                    "controller": "did:sov:9x81wB89FAn7jS4dB81v5G",
-                    "publicKeyBase58": "5swSMd7rJc8BanLm7qsEbwF7V42Jk6t1aLC8PYhp1qxd"
-                }
-            ]
-        },
-        "metadata": {
-            "resolver_type": "native",
-            "resolver": "LegacyPeerDIDResolver",
-            "retrieved_time": "2024-08-21T19:29:22Z",
-            "duration": 0
-        },
-        "id": "49491a43-3dc7-4d0e-b3af-9edab33799ab",
-        "recipientKeyFingerprints": [
-            "9x81wB89FAn7jS4dB81v5G"
-        ]
+    "metadata": {
+      "resolver_type": "native",
+      "resolver": "LegacyPeerDIDResolver",
+      "retrieved_time": "2024-08-22T15:58:57Z",
+      "duration": 0
     },
-    {
-        "did_document": {
-            "@context": "https://w3id.org/did/v1",
-            "id": "did:sov:YHE7RYbubcyHaqhbahWnjt",
-            "authentication": [
-                "did:sov:YHE7RYbubcyHaqhbahWnjt#1"
-            ],
-            "service": [
-                {
-                    "id": "did:sov:YHE7RYbubcyHaqhbahWnjt#didcomm-0",
-                    "type": "did-communication",
-                    "priority": 0,
-                    "recipientKeys": [
-                        "did:sov:YHE7RYbubcyHaqhbahWnjt#1"
-                    ],
-                    "routingKeys": [
-                        "did:key:z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB#z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB"
-                    ],
-                    "serviceEndpoint": "https://mediator.digicred.services:3002"
-                }
-            ],
-            "verificationMethod": [
-                {
-                    "id": "did:sov:YHE7RYbubcyHaqhbahWnjt#1",
-                    "type": "Ed25519VerificationKey2018",
-                    "controller": "did:sov:YHE7RYbubcyHaqhbahWnjt",
-                    "publicKeyBase58": "J3pGC2By9QaMrgZ57etNGmwoPNDSFLQDxMs4qnym1EoZ"
-                }
-            ]
-        },
-        "metadata": {
-            "resolver_type": "native",
-            "resolver": "LegacyPeerDIDResolver",
-            "retrieved_time": "2024-08-21T19:29:22Z",
-            "duration": 0
-        },
-        "id": "46e3c7cf-91e5-4df9-b58b-5daa66c578e5",
-        "recipientKeyFingerprints": [
-            "YHE7RYbubcyHaqhbahWnjt"
-        ]
+    "id": "c1801c01-8ca3-4f49-95fc-ccfb7c66fabf",
+    "recipientKeyFingerprints": ["XcqmC46F6WKAZJDYKfqPoY"]
+  },
+  {
+    "did_document": {
+      "@context": "https://w3id.org/did/v1",
+      "id": "did:sov:VJ4wcjBJuz1XYJKgkvDxuP",
+      "authentication": ["did:sov:VJ4wcjBJuz1XYJKgkvDxuP#1"],
+      "service": [
+        {
+          "id": "did:sov:VJ4wcjBJuz1XYJKgkvDxuP#didcomm-0",
+          "type": "did-communication",
+          "priority": 0,
+          "recipientKeys": ["did:sov:VJ4wcjBJuz1XYJKgkvDxuP#1"],
+          "routingKeys": [
+            "did:key:z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB#z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB"
+          ],
+          "serviceEndpoint": "https://mediator.digicred.services:3002"
+        }
+      ],
+      "verificationMethod": [
+        {
+          "id": "did:sov:VJ4wcjBJuz1XYJKgkvDxuP#1",
+          "type": "Ed25519VerificationKey2018",
+          "controller": "did:sov:VJ4wcjBJuz1XYJKgkvDxuP",
+          "publicKeyBase58": "GRSPpLQtgGGmKNSmw9YWvVKh14V9RhLvw9gP5Re9mMcY"
+        }
+      ]
     },
-    {
-        "did_document": {
-            "@context": "https://w3id.org/did/v1",
-            "id": "did:sov:PWufsF6uyfjKnSHijWcCMo",
-            "authentication": [
-                "did:sov:PWufsF6uyfjKnSHijWcCMo#1"
-            ],
-            "service": [
-                {
-                    "id": "did:sov:PWufsF6uyfjKnSHijWcCMo#didcomm-0",
-                    "type": "did-communication",
-                    "priority": 0,
-                    "recipientKeys": [
-                        "did:sov:PWufsF6uyfjKnSHijWcCMo#1"
-                    ],
-                    "routingKeys": [
-                        "did:key:z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB#z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB"
-                    ],
-                    "serviceEndpoint": "https://mediator.digicred.services:3002"
-                }
-            ],
-            "verificationMethod": [
-                {
-                    "id": "did:sov:PWufsF6uyfjKnSHijWcCMo#1",
-                    "type": "Ed25519VerificationKey2018",
-                    "controller": "did:sov:PWufsF6uyfjKnSHijWcCMo",
-                    "publicKeyBase58": "DGmL7yLfcHbqgtD3iQnV9mvgNzmVoZ4kBWvMs5RuXsqf"
-                }
-            ]
-        },
-        "metadata": {
-            "resolver_type": "native",
-            "resolver": "LegacyPeerDIDResolver",
-            "retrieved_time": "2024-08-21T19:29:22Z",
-            "duration": 0
-        },
-        "id": "7537e4a8-6a0e-4722-827e-14631f496c0d",
-        "recipientKeyFingerprints": [
-            "PWufsF6uyfjKnSHijWcCMo"
-        ]
+    "metadata": {
+      "resolver_type": "native",
+      "resolver": "LegacyPeerDIDResolver",
+      "retrieved_time": "2024-08-22T15:58:57Z",
+      "duration": 0
     },
-    {
-        "did_document": {
-            "@context": "https://w3id.org/did/v1",
-            "id": "did:sov:MQEqKEioJempcGYup42ocV",
-            "authentication": [
-                "did:sov:MQEqKEioJempcGYup42ocV#1"
-            ],
-            "service": [
-                {
-                    "id": "did:sov:MQEqKEioJempcGYup42ocV#didcomm-0",
-                    "type": "did-communication",
-                    "priority": 0,
-                    "recipientKeys": [
-                        "did:sov:MQEqKEioJempcGYup42ocV#1"
-                    ],
-                    "routingKeys": [
-                        "did:key:z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB#z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB"
-                    ],
-                    "serviceEndpoint": "https://mediator.digicred.services:3002"
-                }
-            ],
-            "verificationMethod": [
-                {
-                    "id": "did:sov:MQEqKEioJempcGYup42ocV#1",
-                    "type": "Ed25519VerificationKey2018",
-                    "controller": "did:sov:MQEqKEioJempcGYup42ocV",
-                    "publicKeyBase58": "C7uW6R2ipdWmW6DJhAsBhyexFWYCRcYPH2Hbqi96Jsky"
-                }
-            ]
-        },
-        "metadata": {
-            "resolver_type": "native",
-            "resolver": "LegacyPeerDIDResolver",
-            "retrieved_time": "2024-08-21T19:29:22Z",
-            "duration": 0
-        },
-        "id": "4fefef69-f4f4-4691-8bdd-9bcf316f7a16",
-        "recipientKeyFingerprints": [
-            "MQEqKEioJempcGYup42ocV"
-        ]
+    "id": "d6e60033-44cc-4f67-9ea6-2e62336a2137",
+    "recipientKeyFingerprints": ["VJ4wcjBJuz1XYJKgkvDxuP"]
+  },
+  {
+    "did_document": {
+      "@context": "https://w3id.org/did/v1",
+      "id": "did:sov:8opSuNZaryv9kgikbny9t2",
+      "authentication": ["did:sov:8opSuNZaryv9kgikbny9t2#1"],
+      "service": [
+        {
+          "id": "did:sov:8opSuNZaryv9kgikbny9t2#didcomm-0",
+          "type": "did-communication",
+          "priority": 0,
+          "recipientKeys": ["did:sov:8opSuNZaryv9kgikbny9t2#1"],
+          "routingKeys": [
+            "did:key:z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB#z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB"
+          ],
+          "serviceEndpoint": "https://mediator.digicred.services:3002"
+        }
+      ],
+      "verificationMethod": [
+        {
+          "id": "did:sov:8opSuNZaryv9kgikbny9t2#1",
+          "type": "Ed25519VerificationKey2018",
+          "controller": "did:sov:8opSuNZaryv9kgikbny9t2",
+          "publicKeyBase58": "5FoUKhxZNr25nxJFPmRmtR37MAuuWNLtWYQnHrW3D5NX"
+        }
+      ]
     },
-    {
-        "did_document": {
-            "@context": "https://w3id.org/did/v1",
-            "id": "did:sov:3diRwJhbNR1tWbZmsbmR3o",
-            "authentication": [
-                "did:sov:3diRwJhbNR1tWbZmsbmR3o#1"
-            ],
-            "service": [
-                {
-                    "id": "did:sov:3diRwJhbNR1tWbZmsbmR3o#didcomm-0",
-                    "type": "did-communication",
-                    "priority": 0,
-                    "recipientKeys": [
-                        "did:sov:3diRwJhbNR1tWbZmsbmR3o#1"
-                    ],
-                    "routingKeys": [
-                        "did:key:z6MkiAGAFumGbXRwNPA4paPEnCvBUS8C4yG65Kb1ig8GYX9S#z6MkiAGAFumGbXRwNPA4paPEnCvBUS8C4yG65Kb1ig8GYX9S"
-                    ],
-                    "serviceEndpoint": "https://mediator.digicred.services:3002"
-                }
-            ],
-            "verificationMethod": [
-                {
-                    "id": "did:sov:3diRwJhbNR1tWbZmsbmR3o#1",
-                    "type": "Ed25519VerificationKey2018",
-                    "controller": "did:sov:3diRwJhbNR1tWbZmsbmR3o",
-                    "publicKeyBase58": "2SEbpfCWTZ84Lkg5pXfrBeHkAG3VpEVp3wpQL37Zzcoo"
-                }
-            ]
-        },
-        "metadata": {
-            "resolver_type": "native",
-            "resolver": "LegacyPeerDIDResolver",
-            "retrieved_time": "2024-08-21T19:29:22Z",
-            "duration": 0
-        },
-        "id": "7b06e0b8-4dcc-465f-8a64-1876f0d5db8e",
-        "recipientKeyFingerprints": [
-            "3diRwJhbNR1tWbZmsbmR3o"
-        ]
-    }
+    "metadata": {
+      "resolver_type": "native",
+      "resolver": "LegacyPeerDIDResolver",
+      "retrieved_time": "2024-08-22T15:58:57Z",
+      "duration": 0
+    },
+    "id": "9e517059-44b7-41a5-bf1a-5c4a715ef992",
+    "recipientKeyFingerprints": ["8opSuNZaryv9kgikbny9t2"]
+  },
+  {
+    "did_document": {
+      "@context": "https://w3id.org/did/v1",
+      "id": "did:sov:9x81wB89FAn7jS4dB81v5G",
+      "authentication": ["did:sov:9x81wB89FAn7jS4dB81v5G#1"],
+      "service": [
+        {
+          "id": "did:sov:9x81wB89FAn7jS4dB81v5G#didcomm-0",
+          "type": "did-communication",
+          "priority": 0,
+          "recipientKeys": ["did:sov:9x81wB89FAn7jS4dB81v5G#1"],
+          "routingKeys": [
+            "did:key:z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB#z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB"
+          ],
+          "serviceEndpoint": "https://mediator.digicred.services:3002"
+        }
+      ],
+      "verificationMethod": [
+        {
+          "id": "did:sov:9x81wB89FAn7jS4dB81v5G#1",
+          "type": "Ed25519VerificationKey2018",
+          "controller": "did:sov:9x81wB89FAn7jS4dB81v5G",
+          "publicKeyBase58": "5swSMd7rJc8BanLm7qsEbwF7V42Jk6t1aLC8PYhp1qxd"
+        }
+      ]
+    },
+    "metadata": {
+      "resolver_type": "native",
+      "resolver": "LegacyPeerDIDResolver",
+      "retrieved_time": "2024-08-22T15:58:57Z",
+      "duration": 0
+    },
+    "id": "49491a43-3dc7-4d0e-b3af-9edab33799ab",
+    "recipientKeyFingerprints": ["9x81wB89FAn7jS4dB81v5G"]
+  },
+  {
+    "did_document": {
+      "@context": "https://w3id.org/did/v1",
+      "id": "did:sov:YHE7RYbubcyHaqhbahWnjt",
+      "authentication": ["did:sov:YHE7RYbubcyHaqhbahWnjt#1"],
+      "service": [
+        {
+          "id": "did:sov:YHE7RYbubcyHaqhbahWnjt#didcomm-0",
+          "type": "did-communication",
+          "priority": 0,
+          "recipientKeys": ["did:sov:YHE7RYbubcyHaqhbahWnjt#1"],
+          "routingKeys": [
+            "did:key:z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB#z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB"
+          ],
+          "serviceEndpoint": "https://mediator.digicred.services:3002"
+        }
+      ],
+      "verificationMethod": [
+        {
+          "id": "did:sov:YHE7RYbubcyHaqhbahWnjt#1",
+          "type": "Ed25519VerificationKey2018",
+          "controller": "did:sov:YHE7RYbubcyHaqhbahWnjt",
+          "publicKeyBase58": "J3pGC2By9QaMrgZ57etNGmwoPNDSFLQDxMs4qnym1EoZ"
+        }
+      ]
+    },
+    "metadata": {
+      "resolver_type": "native",
+      "resolver": "LegacyPeerDIDResolver",
+      "retrieved_time": "2024-08-22T15:58:57Z",
+      "duration": 0
+    },
+    "id": "46e3c7cf-91e5-4df9-b58b-5daa66c578e5",
+    "recipientKeyFingerprints": ["YHE7RYbubcyHaqhbahWnjt"]
+  },
+  {
+    "did_document": {
+      "@context": "https://w3id.org/did/v1",
+      "id": "did:sov:PWufsF6uyfjKnSHijWcCMo",
+      "authentication": ["did:sov:PWufsF6uyfjKnSHijWcCMo#1"],
+      "service": [
+        {
+          "id": "did:sov:PWufsF6uyfjKnSHijWcCMo#didcomm-0",
+          "type": "did-communication",
+          "priority": 0,
+          "recipientKeys": ["did:sov:PWufsF6uyfjKnSHijWcCMo#1"],
+          "routingKeys": [
+            "did:key:z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB#z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB"
+          ],
+          "serviceEndpoint": "https://mediator.digicred.services:3002"
+        }
+      ],
+      "verificationMethod": [
+        {
+          "id": "did:sov:PWufsF6uyfjKnSHijWcCMo#1",
+          "type": "Ed25519VerificationKey2018",
+          "controller": "did:sov:PWufsF6uyfjKnSHijWcCMo",
+          "publicKeyBase58": "DGmL7yLfcHbqgtD3iQnV9mvgNzmVoZ4kBWvMs5RuXsqf"
+        }
+      ]
+    },
+    "metadata": {
+      "resolver_type": "native",
+      "resolver": "LegacyPeerDIDResolver",
+      "retrieved_time": "2024-08-22T15:58:57Z",
+      "duration": 0
+    },
+    "id": "7537e4a8-6a0e-4722-827e-14631f496c0d",
+    "recipientKeyFingerprints": ["PWufsF6uyfjKnSHijWcCMo"]
+  },
+  {
+    "did_document": {
+      "@context": "https://w3id.org/did/v1",
+      "id": "did:sov:MQEqKEioJempcGYup42ocV",
+      "authentication": ["did:sov:MQEqKEioJempcGYup42ocV#1"],
+      "service": [
+        {
+          "id": "did:sov:MQEqKEioJempcGYup42ocV#didcomm-0",
+          "type": "did-communication",
+          "priority": 0,
+          "recipientKeys": ["did:sov:MQEqKEioJempcGYup42ocV#1"],
+          "routingKeys": [
+            "did:key:z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB#z6MkqBGNKfmszJoU6PzvqWxKP1vRG32Gaj3NsD42hLcp7qrB"
+          ],
+          "serviceEndpoint": "https://mediator.digicred.services:3002"
+        }
+      ],
+      "verificationMethod": [
+        {
+          "id": "did:sov:MQEqKEioJempcGYup42ocV#1",
+          "type": "Ed25519VerificationKey2018",
+          "controller": "did:sov:MQEqKEioJempcGYup42ocV",
+          "publicKeyBase58": "C7uW6R2ipdWmW6DJhAsBhyexFWYCRcYPH2Hbqi96Jsky"
+        }
+      ]
+    },
+    "metadata": {
+      "resolver_type": "native",
+      "resolver": "LegacyPeerDIDResolver",
+      "retrieved_time": "2024-08-22T15:58:57Z",
+      "duration": 0
+    },
+    "id": "4fefef69-f4f4-4691-8bdd-9bcf316f7a16",
+    "recipientKeyFingerprints": ["MQEqKEioJempcGYup42ocV"]
+  },
+  {
+    "did_document": {
+      "@context": "https://w3id.org/did/v1",
+      "id": "did:sov:3diRwJhbNR1tWbZmsbmR3o",
+      "authentication": ["did:sov:3diRwJhbNR1tWbZmsbmR3o#1"],
+      "service": [
+        {
+          "id": "did:sov:3diRwJhbNR1tWbZmsbmR3o#didcomm-0",
+          "type": "did-communication",
+          "priority": 0,
+          "recipientKeys": ["did:sov:3diRwJhbNR1tWbZmsbmR3o#1"],
+          "routingKeys": [
+            "did:key:z6MkiAGAFumGbXRwNPA4paPEnCvBUS8C4yG65Kb1ig8GYX9S#z6MkiAGAFumGbXRwNPA4paPEnCvBUS8C4yG65Kb1ig8GYX9S"
+          ],
+          "serviceEndpoint": "https://mediator.digicred.services:3002"
+        }
+      ],
+      "verificationMethod": [
+        {
+          "id": "did:sov:3diRwJhbNR1tWbZmsbmR3o#1",
+          "type": "Ed25519VerificationKey2018",
+          "controller": "did:sov:3diRwJhbNR1tWbZmsbmR3o",
+          "publicKeyBase58": "2SEbpfCWTZ84Lkg5pXfrBeHkAG3VpEVp3wpQL37Zzcoo"
+        }
+      ]
+    },
+    "metadata": {
+      "resolver_type": "native",
+      "resolver": "LegacyPeerDIDResolver",
+      "retrieved_time": "2024-08-22T15:58:57Z",
+      "duration": 0
+    },
+    "id": "7b06e0b8-4dcc-465f-8a64-1876f0d5db8e",
+    "recipientKeyFingerprints": ["3diRwJhbNR1tWbZmsbmR3o"]
+  }
 ]

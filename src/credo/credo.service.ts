@@ -26,6 +26,7 @@ import {
   IndyVdrIndyDidRegistrar,
   IndyVdrIndyDidResolver,
   IndyVdrModule,
+  IndyVdrSovDidResolver,
 } from '@credo-ts/indy-vdr';
 import { indyVdr } from '@hyperledger/indy-vdr-nodejs';
 import ledgers from '../config/ledgers/indy/index';
@@ -90,7 +91,10 @@ export class CredoService {
 
         dids: new DidsModule({
           registrars: [new IndyVdrIndyDidRegistrar()],
-          resolvers: [new IndyVdrIndyDidResolver()],
+          resolvers: [
+            new IndyVdrIndyDidResolver(),
+            new IndyVdrSovDidResolver(),
+          ],
         }),
 
         // to issue a credential
