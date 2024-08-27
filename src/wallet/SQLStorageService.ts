@@ -1,23 +1,23 @@
-import type { AgentContext } from "@credo-ts/core";
-import type { BaseRecord, TagsBase } from "@credo-ts/core";
-import { Database } from "sqlite3";
+import type { AgentContext } from '@credo-ts/core';
+import type { BaseRecord, TagsBase } from '@credo-ts/core';
+import { Database } from 'sqlite3';
 import type {
   StorageService,
   BaseRecordConstructor,
   Query,
-} from "@credo-ts/core";
+} from '@credo-ts/core';
 export type QueryOptions = {
   limit?: number;
   offset?: number;
 };
-import { SQLWallet } from "./SQLWallet";
+import { SQLWallet } from './SQLWallet';
 
 import {
   RecordNotFoundError,
   RecordDuplicateError,
   JsonTransformer,
   injectable,
-} from "@credo-ts/core";
+} from '@credo-ts/core';
 
 interface StorageRecord {
   value: Record<string, unknown>;
@@ -29,10 +29,10 @@ interface StorageRecord {
 @injectable()
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export class SQLiteStorageService<
-  T extends BaseRecord<any, any, any> = BaseRecord<any, any, any>
+  T extends BaseRecord<any, any, any> = BaseRecord<any, any, any>,
 > implements StorageService<T>
 {
-  public db: Database = new Database("db.sqlite");
+  public db: Database = new Database('db.sqlite');
 
   constructor() {
     this.db.run(`
@@ -47,7 +47,7 @@ export class SQLiteStorageService<
 
   private recordToInstance(
     record: StorageRecord,
-    recordClass: BaseRecordConstructor<T>
+    recordClass: BaseRecordConstructor<T>,
   ): T {
     const instance = JsonTransformer.fromJSON<T>(record.value, recordClass);
     instance.id = record.id;
@@ -58,7 +58,7 @@ export class SQLiteStorageService<
 
   /** @inheritDoc */
   public async save(agentContext: AgentContext, record: T) {
-    console.log(record);
+    console.log('record::::::', record);
     record.updatedAt = new Date();
     let t: Partial<any>;
     try {
@@ -98,12 +98,12 @@ export class SQLiteStorageService<
         ],
         (err: any) => {
           if (err) {
-            if (err.code === "SQLITE_CONSTRAINT") {
+            if (err.code === 'SQLITE_CONSTRAINT') {
               reject(
                 new RecordDuplicateError(
                   `Record with id ${record.id} already exists`,
-                  { recordType: record.type }
-                )
+                  { recordType: record.type },
+                ),
               );
             } else {
               reject(err);
@@ -111,7 +111,7 @@ export class SQLiteStorageService<
           } else {
             resolve();
           }
-        }
+        },
       );
     });
   }
@@ -133,7 +133,7 @@ export class SQLiteStorageService<
           } else {
             resolve();
           }
-        }
+        },
       );
     });
   }
@@ -155,7 +155,7 @@ export class SQLiteStorageService<
   public async deleteById(
     agentContext: AgentContext,
     recordClass: BaseRecordConstructor<T>,
-    id: string
+    id: string,
   ): Promise<void> {
     return new Promise<void>((resolve, reject) => {
       this.db.run(`DELETE FROM records WHERE id = ?`, [id], (err) => {
@@ -172,7 +172,7 @@ export class SQLiteStorageService<
   public async getById(
     agentContext: AgentContext,
     recordClass: BaseRecordConstructor<T>,
-    id: string
+    id: string,
   ): Promise<T> {
     return new Promise<T>((resolve, reject) => {
       this.db.get(
@@ -190,17 +190,17 @@ export class SQLiteStorageService<
                   id: row.id,
                   type: row.type,
                 },
-                recordClass
-              )
+                recordClass,
+              ),
             );
           } else {
             reject(
               new RecordNotFoundError(`record with id ${id} not found.`, {
                 recordType: recordClass.type,
-              })
+              }),
             );
           }
-        }
+        },
       );
     });
   }
@@ -208,7 +208,7 @@ export class SQLiteStorageService<
   /** @inheritDoc */
   public async getAll(
     agentContext: AgentContext,
-    recordClass: BaseRecordConstructor<T>
+    recordClass: BaseRecordConstructor<T>,
   ): Promise<T[]> {
     return new Promise<T[]>((resolve, reject) => {
       this.db.all(
@@ -226,12 +226,12 @@ export class SQLiteStorageService<
                   id: row.id,
                   type: row.type,
                 },
-                recordClass
-              )
+                recordClass,
+              ),
             );
             resolve(instances);
           }
-        }
+        },
       );
     });
   }
@@ -241,7 +241,7 @@ export class SQLiteStorageService<
     agentContext: AgentContext,
     recordClass: BaseRecordConstructor<T>,
     query: Query<T>,
-    queryOptions?: QueryOptions
+    queryOptions?: QueryOptions,
   ): Promise<T[]> {
     const { offset = 0, limit } = queryOptions || {};
 
@@ -261,19 +261,19 @@ export class SQLiteStorageService<
             }));
 
             const filteredRecords = allRecords.filter((record) =>
-              filterByQuery(record, query)
+              filterByQuery(record, query),
             );
             const slicedRecords =
               limit !== undefined
                 ? filteredRecords.slice(offset, offset + limit)
                 : filteredRecords.slice(offset);
             const instances = slicedRecords.map((record) =>
-              this.recordToInstance(record, recordClass)
+              this.recordToInstance(record, recordClass),
             );
 
             resolve(instances);
           }
-        }
+        },
       );
     });
   }
@@ -282,19 +282,19 @@ export class SQLiteStorageService<
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function filterByQuery<T extends BaseRecord<any, any, any>>(
   record: StorageRecord,
-  query: Query<T>
+  query: Query<T>,
 ) {
   const { $and, $or, $not, ...restQuery } = query;
 
   if ($not) {
-    throw new Error("$not query not supported in SQLite storage");
+    throw new Error('$not query not supported in SQLite storage');
   }
 
   if (!matchSimpleQuery(record, restQuery)) return false;
 
   if ($and) {
     const allAndMatch = ($and as Query<T>[]).every((and) =>
-      filterByQuery(record, and)
+      filterByQuery(record, and),
     );
 
     if (!allAndMatch) return false;
@@ -302,7 +302,7 @@ function filterByQuery<T extends BaseRecord<any, any, any>>(
 
   if ($or) {
     const oneOrMatch = ($or as Query<T>[]).some((or) =>
-      filterByQuery(record, or)
+      filterByQuery(record, or),
     );
     if (!oneOrMatch) return false;
   }
@@ -313,7 +313,7 @@ function filterByQuery<T extends BaseRecord<any, any, any>>(
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function matchSimpleQuery<T extends BaseRecord<any, any, any>>(
   record: StorageRecord,
-  query: Query<T>
+  query: Query<T>,
 ) {
   const tags = record.tags as TagsBase;
 

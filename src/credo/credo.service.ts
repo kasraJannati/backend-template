@@ -17,6 +17,8 @@ import {
   CredentialState,
   ConsoleLogger,
   LogLevel,
+  DidCreateOptions,
+  KeyType,
 } from '@credo-ts/core';
 import { HttpInboundTransport, agentDependencies } from '@credo-ts/node';
 import { AskarModule } from '@credo-ts/askar';
@@ -39,7 +41,7 @@ import {
 } from '@credo-ts/anoncreds';
 import { anoncreds } from '@hyperledger/anoncreds-nodejs';
 import { SQLWalletModule } from 'src/wallet/SQLWalletModule';
-
+import fs from 'fs';
 @Injectable()
 export class CredoService {
   private readonly logger = new Logger(CredoService.name);
@@ -123,6 +125,38 @@ export class CredoService {
     // Initialize the agent
     try {
       await this.agent.initialize();
+      // const doc: any = {};
+      // fs.readFile('./resolved_dids.json', 'utf8', async (err, response) => {
+      //   if (err) {
+      //     console.error(err);
+      //     return;
+      //   }
+      //   const data = JSON.parse(response);
+      //   for (let i = 0; i < data.length; i++) {
+      //     const didCreateOptions: DidCreateOptions = {
+      //       didDocument: data[i].did_document,
+      //       method: 'peer',
+      //       options: {
+      //         keyType: KeyType.Ed25519,
+      //         numAlgo: 0,
+      //       },
+      //       // did: data[i].did_document.id,
+      //     };
+      //     // console.log(didCreateOptions);
+      //     const result = await this.agent.dids.create(didCreateOptions);
+      //     doc[data[i].did_document.id] = result;
+      //     console.log(result, 'reee');
+
+      //     fs.writeFile('./credo_dids.json', JSON.stringify(doc), (err) => {
+      //       if (err) {
+      //         console.error(err);
+      //       } else {
+      //         // file written successfully
+      //       }
+      //     });
+      //   }
+      // });
+
       this.agents.set(name, this.agent);
       this.logger.log(
         `Agent ${name} initialized on endpoint ${endpoint}:${port}`,

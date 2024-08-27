@@ -1,0 +1,452 @@
+{
+  "LwSjNj2RC4Ns9X23V3TTeN": {
+    "didDocumentMetadata": {},
+    "didRegistrationMetadata": {},
+    "didState": {
+      "state": "finished",
+      "did": "did:peer:0z6MkwTYDv8zmkWyoeDvSeVFi7poAoEFTMEU2as7CfPNzM6Qp",
+      "didDocument": {
+        "@context": [
+          "https://w3id.org/did/v1",
+          "https://w3id.org/security/suites/ed25519-2018/v1",
+          "https://w3id.org/security/suites/x25519-2019/v1"
+        ],
+        "id": "did:peer:0z6MkwTYDv8zmkWyoeDvSeVFi7poAoEFTMEU2as7CfPNzM6Qp",
+        "verificationMethod": [
+          {
+            "id": "did:peer:0z6MkwTYDv8zmkWyoeDvSeVFi7poAoEFTMEU2as7CfPNzM6Qp#z6MkwTYDv8zmkWyoeDvSeVFi7poAoEFTMEU2as7CfPNzM6Qp",
+            "type": "Ed25519VerificationKey2018",
+            "controller": "did:peer:0z6MkwTYDv8zmkWyoeDvSeVFi7poAoEFTMEU2as7CfPNzM6Qp",
+            "publicKeyBase58": "J1HBKtkLQyVLXj5jxvHsGjFAyeybwMDftrCGq7QyRsdS"
+          }
+        ],
+        "authentication": [
+          "did:peer:0z6MkwTYDv8zmkWyoeDvSeVFi7poAoEFTMEU2as7CfPNzM6Qp#z6MkwTYDv8zmkWyoeDvSeVFi7poAoEFTMEU2as7CfPNzM6Qp"
+        ],
+        "assertionMethod": [
+          "did:peer:0z6MkwTYDv8zmkWyoeDvSeVFi7poAoEFTMEU2as7CfPNzM6Qp#z6MkwTYDv8zmkWyoeDvSeVFi7poAoEFTMEU2as7CfPNzM6Qp"
+        ],
+        "keyAgreement": [
+          {
+            "id": "did:peer:0z6MkwTYDv8zmkWyoeDvSeVFi7poAoEFTMEU2as7CfPNzM6Qp#z6LSgxr7g49PCKF7HDGrrnwkYLjhWHPsZwbLdzQS7xux5hZp",
+            "type": "X25519KeyAgreementKey2019",
+            "controller": "did:peer:0z6MkwTYDv8zmkWyoeDvSeVFi7poAoEFTMEU2as7CfPNzM6Qp",
+            "publicKeyBase58": "6Hfx9kLX6rXNBpu6L9RoDkXDf8rksLRBm1gkdWGRNKo4"
+          }
+        ],
+        "capabilityInvocation": [
+          "did:peer:0z6MkwTYDv8zmkWyoeDvSeVFi7poAoEFTMEU2as7CfPNzM6Qp#z6MkwTYDv8zmkWyoeDvSeVFi7poAoEFTMEU2as7CfPNzM6Qp"
+        ],
+        "capabilityDelegation": [
+          "did:peer:0z6MkwTYDv8zmkWyoeDvSeVFi7poAoEFTMEU2as7CfPNzM6Qp#z6MkwTYDv8zmkWyoeDvSeVFi7poAoEFTMEU2as7CfPNzM6Qp"
+        ]
+      },
+      "secret": {}
+    }
+  },
+  "CdoqYpoK49izeuQUNz18G2": {
+    "didDocumentMetadata": {},
+    "didRegistrationMetadata": {},
+    "didState": {
+      "state": "finished",
+      "did": "did:peer:0z6Mksk2NGjGQi7HZooD3oQ64ccHWgkKoQoxnyU8j4UVR4XBE",
+      "didDocument": {
+        "@context": [
+          "https://w3id.org/did/v1",
+          "https://w3id.org/security/suites/ed25519-2018/v1",
+          "https://w3id.org/security/suites/x25519-2019/v1"
+        ],
+        "id": "did:peer:0z6Mksk2NGjGQi7HZooD3oQ64ccHWgkKoQoxnyU8j4UVR4XBE",
+        "verificationMethod": [
+          {
+            "id": "did:peer:0z6Mksk2NGjGQi7HZooD3oQ64ccHWgkKoQoxnyU8j4UVR4XBE#z6Mksk2NGjGQi7HZooD3oQ64ccHWgkKoQoxnyU8j4UVR4XBE",
+            "type": "Ed25519VerificationKey2018",
+            "controller": "did:peer:0z6Mksk2NGjGQi7HZooD3oQ64ccHWgkKoQoxnyU8j4UVR4XBE",
+            "publicKeyBase58": "EHmKgV1yNZo6hJNM7q8DmWjWsB3wzviSHTDoECXQ9JPr"
+          }
+        ],
+        "authentication": [
+          "did:peer:0z6Mksk2NGjGQi7HZooD3oQ64ccHWgkKoQoxnyU8j4UVR4XBE#z6Mksk2NGjGQi7HZooD3oQ64ccHWgkKoQoxnyU8j4UVR4XBE"
+        ],
+        "assertionMethod": [
+          "did:peer:0z6Mksk2NGjGQi7HZooD3oQ64ccHWgkKoQoxnyU8j4UVR4XBE#z6Mksk2NGjGQi7HZooD3oQ64ccHWgkKoQoxnyU8j4UVR4XBE"
+        ],
+        "keyAgreement": [
+          {
+            "id": "did:peer:0z6Mksk2NGjGQi7HZooD3oQ64ccHWgkKoQoxnyU8j4UVR4XBE#z6LSpB9LQX1c6ghkn6xh9CbahLRFxCEFw7bkt3jtgHRmi7JX",
+            "type": "X25519KeyAgreementKey2019",
+            "controller": "did:peer:0z6Mksk2NGjGQi7HZooD3oQ64ccHWgkKoQoxnyU8j4UVR4XBE",
+            "publicKeyBase58": "DVyAtDCk1Dz1giavcZ5dNkCn73h9EWRc152DBpnEzjXm"
+          }
+        ],
+        "capabilityInvocation": [
+          "did:peer:0z6Mksk2NGjGQi7HZooD3oQ64ccHWgkKoQoxnyU8j4UVR4XBE#z6Mksk2NGjGQi7HZooD3oQ64ccHWgkKoQoxnyU8j4UVR4XBE"
+        ],
+        "capabilityDelegation": [
+          "did:peer:0z6Mksk2NGjGQi7HZooD3oQ64ccHWgkKoQoxnyU8j4UVR4XBE#z6Mksk2NGjGQi7HZooD3oQ64ccHWgkKoQoxnyU8j4UVR4XBE"
+        ]
+      },
+      "secret": {}
+    }
+  },
+  "XcqmC46F6WKAZJDYKfqPoY": {
+    "didDocumentMetadata": {},
+    "didRegistrationMetadata": {},
+    "didState": {
+      "state": "finished",
+      "did": "did:peer:0z6MknzcfgxtRjzJZkfJxmwnD7xNnPN83RrRqVtyho8mALaLH",
+      "didDocument": {
+        "@context": [
+          "https://w3id.org/did/v1",
+          "https://w3id.org/security/suites/ed25519-2018/v1",
+          "https://w3id.org/security/suites/x25519-2019/v1"
+        ],
+        "id": "did:peer:0z6MknzcfgxtRjzJZkfJxmwnD7xNnPN83RrRqVtyho8mALaLH",
+        "verificationMethod": [
+          {
+            "id": "did:peer:0z6MknzcfgxtRjzJZkfJxmwnD7xNnPN83RrRqVtyho8mALaLH#z6MknzcfgxtRjzJZkfJxmwnD7xNnPN83RrRqVtyho8mALaLH",
+            "type": "Ed25519VerificationKey2018",
+            "controller": "did:peer:0z6MknzcfgxtRjzJZkfJxmwnD7xNnPN83RrRqVtyho8mALaLH",
+            "publicKeyBase58": "9YMd6idzQSp6eAUG6NpNGrpnZnrC1yBUot4mxro9RMYu"
+          }
+        ],
+        "authentication": [
+          "did:peer:0z6MknzcfgxtRjzJZkfJxmwnD7xNnPN83RrRqVtyho8mALaLH#z6MknzcfgxtRjzJZkfJxmwnD7xNnPN83RrRqVtyho8mALaLH"
+        ],
+        "assertionMethod": [
+          "did:peer:0z6MknzcfgxtRjzJZkfJxmwnD7xNnPN83RrRqVtyho8mALaLH#z6MknzcfgxtRjzJZkfJxmwnD7xNnPN83RrRqVtyho8mALaLH"
+        ],
+        "keyAgreement": [
+          {
+            "id": "did:peer:0z6MknzcfgxtRjzJZkfJxmwnD7xNnPN83RrRqVtyho8mALaLH#z6LSmWab6jAnPkCWAX18JC5PJ9LWJ3MzFPmn68awu6vt2xyW",
+            "type": "X25519KeyAgreementKey2019",
+            "controller": "did:peer:0z6MknzcfgxtRjzJZkfJxmwnD7xNnPN83RrRqVtyho8mALaLH",
+            "publicKeyBase58": "AqQRaRMvJHUm58dMmYZRyZ82StpsYnbdD9sGQeHMKbCk"
+          }
+        ],
+        "capabilityInvocation": [
+          "did:peer:0z6MknzcfgxtRjzJZkfJxmwnD7xNnPN83RrRqVtyho8mALaLH#z6MknzcfgxtRjzJZkfJxmwnD7xNnPN83RrRqVtyho8mALaLH"
+        ],
+        "capabilityDelegation": [
+          "did:peer:0z6MknzcfgxtRjzJZkfJxmwnD7xNnPN83RrRqVtyho8mALaLH#z6MknzcfgxtRjzJZkfJxmwnD7xNnPN83RrRqVtyho8mALaLH"
+        ]
+      },
+      "secret": {}
+    }
+  },
+  "VJ4wcjBJuz1XYJKgkvDxuP": {
+    "didDocumentMetadata": {},
+    "didRegistrationMetadata": {},
+    "didState": {
+      "state": "finished",
+      "did": "did:peer:0z6MkgWibEtswXt1AL1kDCC3LaqbhJLdBTVYoGbhR1d8r1GzH",
+      "didDocument": {
+        "@context": [
+          "https://w3id.org/did/v1",
+          "https://w3id.org/security/suites/ed25519-2018/v1",
+          "https://w3id.org/security/suites/x25519-2019/v1"
+        ],
+        "id": "did:peer:0z6MkgWibEtswXt1AL1kDCC3LaqbhJLdBTVYoGbhR1d8r1GzH",
+        "verificationMethod": [
+          {
+            "id": "did:peer:0z6MkgWibEtswXt1AL1kDCC3LaqbhJLdBTVYoGbhR1d8r1GzH#z6MkgWibEtswXt1AL1kDCC3LaqbhJLdBTVYoGbhR1d8r1GzH",
+            "type": "Ed25519VerificationKey2018",
+            "controller": "did:peer:0z6MkgWibEtswXt1AL1kDCC3LaqbhJLdBTVYoGbhR1d8r1GzH",
+            "publicKeyBase58": "34TYeedWCLWhDWuWWd5Vjk3hUmML3cJSaanVBMAq64Cu"
+          }
+        ],
+        "authentication": [
+          "did:peer:0z6MkgWibEtswXt1AL1kDCC3LaqbhJLdBTVYoGbhR1d8r1GzH#z6MkgWibEtswXt1AL1kDCC3LaqbhJLdBTVYoGbhR1d8r1GzH"
+        ],
+        "assertionMethod": [
+          "did:peer:0z6MkgWibEtswXt1AL1kDCC3LaqbhJLdBTVYoGbhR1d8r1GzH#z6MkgWibEtswXt1AL1kDCC3LaqbhJLdBTVYoGbhR1d8r1GzH"
+        ],
+        "keyAgreement": [
+          {
+            "id": "did:peer:0z6MkgWibEtswXt1AL1kDCC3LaqbhJLdBTVYoGbhR1d8r1GzH#z6LSjmsTsjfPrxziYHXrWh7afNYWprTC1hFxZxEnwoKSGfcq",
+            "type": "X25519KeyAgreementKey2019",
+            "controller": "did:peer:0z6MkgWibEtswXt1AL1kDCC3LaqbhJLdBTVYoGbhR1d8r1GzH",
+            "publicKeyBase58": "96hJMRrXmWGySuA5z3bdLnL2yhv5K65ogyX7TLfuZHr5"
+          }
+        ],
+        "capabilityInvocation": [
+          "did:peer:0z6MkgWibEtswXt1AL1kDCC3LaqbhJLdBTVYoGbhR1d8r1GzH#z6MkgWibEtswXt1AL1kDCC3LaqbhJLdBTVYoGbhR1d8r1GzH"
+        ],
+        "capabilityDelegation": [
+          "did:peer:0z6MkgWibEtswXt1AL1kDCC3LaqbhJLdBTVYoGbhR1d8r1GzH#z6MkgWibEtswXt1AL1kDCC3LaqbhJLdBTVYoGbhR1d8r1GzH"
+        ]
+      },
+      "secret": {}
+    }
+  },
+  "8opSuNZaryv9kgikbny9t2": {
+    "didDocumentMetadata": {},
+    "didRegistrationMetadata": {},
+    "didState": {
+      "state": "finished",
+      "did": "did:peer:0z6MkqbmKHZnk6kvpEzejnt2BWBnoP51XByKADXZ8VQ5NZhN7",
+      "didDocument": {
+        "@context": [
+          "https://w3id.org/did/v1",
+          "https://w3id.org/security/suites/ed25519-2018/v1",
+          "https://w3id.org/security/suites/x25519-2019/v1"
+        ],
+        "id": "did:peer:0z6MkqbmKHZnk6kvpEzejnt2BWBnoP51XByKADXZ8VQ5NZhN7",
+        "verificationMethod": [
+          {
+            "id": "did:peer:0z6MkqbmKHZnk6kvpEzejnt2BWBnoP51XByKADXZ8VQ5NZhN7#z6MkqbmKHZnk6kvpEzejnt2BWBnoP51XByKADXZ8VQ5NZhN7",
+            "type": "Ed25519VerificationKey2018",
+            "controller": "did:peer:0z6MkqbmKHZnk6kvpEzejnt2BWBnoP51XByKADXZ8VQ5NZhN7",
+            "publicKeyBase58": "C9WGhKYJmDSM8Vp37K4Lf6EoZVjfn64oXWeCf87MeUaj"
+          }
+        ],
+        "authentication": [
+          "did:peer:0z6MkqbmKHZnk6kvpEzejnt2BWBnoP51XByKADXZ8VQ5NZhN7#z6MkqbmKHZnk6kvpEzejnt2BWBnoP51XByKADXZ8VQ5NZhN7"
+        ],
+        "assertionMethod": [
+          "did:peer:0z6MkqbmKHZnk6kvpEzejnt2BWBnoP51XByKADXZ8VQ5NZhN7#z6MkqbmKHZnk6kvpEzejnt2BWBnoP51XByKADXZ8VQ5NZhN7"
+        ],
+        "keyAgreement": [
+          {
+            "id": "did:peer:0z6MkqbmKHZnk6kvpEzejnt2BWBnoP51XByKADXZ8VQ5NZhN7#z6LSiZY15HNhVNJXTLGAxzVy2nz9TxWMbMvtQPYZEA7keCos",
+            "type": "X25519KeyAgreementKey2019",
+            "controller": "did:peer:0z6MkqbmKHZnk6kvpEzejnt2BWBnoP51XByKADXZ8VQ5NZhN7",
+            "publicKeyBase58": "7tMqYyZqPuanMwtQSLz1iCmfcoyEtkkjXQpsjhUDvq37"
+          }
+        ],
+        "capabilityInvocation": [
+          "did:peer:0z6MkqbmKHZnk6kvpEzejnt2BWBnoP51XByKADXZ8VQ5NZhN7#z6MkqbmKHZnk6kvpEzejnt2BWBnoP51XByKADXZ8VQ5NZhN7"
+        ],
+        "capabilityDelegation": [
+          "did:peer:0z6MkqbmKHZnk6kvpEzejnt2BWBnoP51XByKADXZ8VQ5NZhN7#z6MkqbmKHZnk6kvpEzejnt2BWBnoP51XByKADXZ8VQ5NZhN7"
+        ]
+      },
+      "secret": {}
+    }
+  },
+  "9x81wB89FAn7jS4dB81v5G": {
+    "didDocumentMetadata": {},
+    "didRegistrationMetadata": {},
+    "didState": {
+      "state": "finished",
+      "did": "did:peer:0z6Mkv7THhWDR3Mapm8dTdwp24h8mb2E2sEgprtujx9YrT9TM",
+      "didDocument": {
+        "@context": [
+          "https://w3id.org/did/v1",
+          "https://w3id.org/security/suites/ed25519-2018/v1",
+          "https://w3id.org/security/suites/x25519-2019/v1"
+        ],
+        "id": "did:peer:0z6Mkv7THhWDR3Mapm8dTdwp24h8mb2E2sEgprtujx9YrT9TM",
+        "verificationMethod": [
+          {
+            "id": "did:peer:0z6Mkv7THhWDR3Mapm8dTdwp24h8mb2E2sEgprtujx9YrT9TM#z6Mkv7THhWDR3Mapm8dTdwp24h8mb2E2sEgprtujx9YrT9TM",
+            "type": "Ed25519VerificationKey2018",
+            "controller": "did:peer:0z6Mkv7THhWDR3Mapm8dTdwp24h8mb2E2sEgprtujx9YrT9TM",
+            "publicKeyBase58": "GfCF7Fxyhp6MednkxNrBDbammSxBTMSUAszp7saqXvfy"
+          }
+        ],
+        "authentication": [
+          "did:peer:0z6Mkv7THhWDR3Mapm8dTdwp24h8mb2E2sEgprtujx9YrT9TM#z6Mkv7THhWDR3Mapm8dTdwp24h8mb2E2sEgprtujx9YrT9TM"
+        ],
+        "assertionMethod": [
+          "did:peer:0z6Mkv7THhWDR3Mapm8dTdwp24h8mb2E2sEgprtujx9YrT9TM#z6Mkv7THhWDR3Mapm8dTdwp24h8mb2E2sEgprtujx9YrT9TM"
+        ],
+        "keyAgreement": [
+          {
+            "id": "did:peer:0z6Mkv7THhWDR3Mapm8dTdwp24h8mb2E2sEgprtujx9YrT9TM#z6LStSbZxsggyAvjRGJoygph96xVfPzjRKEp5jX2qhoVVBpo",
+            "type": "X25519KeyAgreementKey2019",
+            "controller": "did:peer:0z6Mkv7THhWDR3Mapm8dTdwp24h8mb2E2sEgprtujx9YrT9TM",
+            "publicKeyBase58": "HmRQSZspsiCzKsw3T3JjpWk1pFTcii4fCkoMMF9xmp43"
+          }
+        ],
+        "capabilityInvocation": [
+          "did:peer:0z6Mkv7THhWDR3Mapm8dTdwp24h8mb2E2sEgprtujx9YrT9TM#z6Mkv7THhWDR3Mapm8dTdwp24h8mb2E2sEgprtujx9YrT9TM"
+        ],
+        "capabilityDelegation": [
+          "did:peer:0z6Mkv7THhWDR3Mapm8dTdwp24h8mb2E2sEgprtujx9YrT9TM#z6Mkv7THhWDR3Mapm8dTdwp24h8mb2E2sEgprtujx9YrT9TM"
+        ]
+      },
+      "secret": {}
+    }
+  },
+  "YHE7RYbubcyHaqhbahWnjt": {
+    "didDocumentMetadata": {},
+    "didRegistrationMetadata": {},
+    "didState": {
+      "state": "finished",
+      "did": "did:peer:0z6MkvieBKivcPdaEuBVzwnZaSapbTL5NAGZaWmCnwcYhgnJR",
+      "didDocument": {
+        "@context": [
+          "https://w3id.org/did/v1",
+          "https://w3id.org/security/suites/ed25519-2018/v1",
+          "https://w3id.org/security/suites/x25519-2019/v1"
+        ],
+        "id": "did:peer:0z6MkvieBKivcPdaEuBVzwnZaSapbTL5NAGZaWmCnwcYhgnJR",
+        "verificationMethod": [
+          {
+            "id": "did:peer:0z6MkvieBKivcPdaEuBVzwnZaSapbTL5NAGZaWmCnwcYhgnJR#z6MkvieBKivcPdaEuBVzwnZaSapbTL5NAGZaWmCnwcYhgnJR",
+            "type": "Ed25519VerificationKey2018",
+            "controller": "did:peer:0z6MkvieBKivcPdaEuBVzwnZaSapbTL5NAGZaWmCnwcYhgnJR",
+            "publicKeyBase58": "HGP8jUgB465mngfJGDbjbVGbdkoWkPKDpkHs7LagmZX3"
+          }
+        ],
+        "authentication": [
+          "did:peer:0z6MkvieBKivcPdaEuBVzwnZaSapbTL5NAGZaWmCnwcYhgnJR#z6MkvieBKivcPdaEuBVzwnZaSapbTL5NAGZaWmCnwcYhgnJR"
+        ],
+        "assertionMethod": [
+          "did:peer:0z6MkvieBKivcPdaEuBVzwnZaSapbTL5NAGZaWmCnwcYhgnJR#z6MkvieBKivcPdaEuBVzwnZaSapbTL5NAGZaWmCnwcYhgnJR"
+        ],
+        "keyAgreement": [
+          {
+            "id": "did:peer:0z6MkvieBKivcPdaEuBVzwnZaSapbTL5NAGZaWmCnwcYhgnJR#z6LSnL2bu8EXn6w1oEdrKwdvJKEvTgjD3uc42fN6C9ueYnjt",
+            "type": "X25519KeyAgreementKey2019",
+            "controller": "did:peer:0z6MkvieBKivcPdaEuBVzwnZaSapbTL5NAGZaWmCnwcYhgnJR",
+            "publicKeyBase58": "BerSNpRfgeDGhrG5oJ7xyj2ScYC6MJRu9geQhhG7qQy8"
+          }
+        ],
+        "capabilityInvocation": [
+          "did:peer:0z6MkvieBKivcPdaEuBVzwnZaSapbTL5NAGZaWmCnwcYhgnJR#z6MkvieBKivcPdaEuBVzwnZaSapbTL5NAGZaWmCnwcYhgnJR"
+        ],
+        "capabilityDelegation": [
+          "did:peer:0z6MkvieBKivcPdaEuBVzwnZaSapbTL5NAGZaWmCnwcYhgnJR#z6MkvieBKivcPdaEuBVzwnZaSapbTL5NAGZaWmCnwcYhgnJR"
+        ]
+      },
+      "secret": {}
+    }
+  },
+  "PWufsF6uyfjKnSHijWcCMo": {
+    "didDocumentMetadata": {},
+    "didRegistrationMetadata": {},
+    "didState": {
+      "state": "finished",
+      "did": "did:peer:0z6MkfnofFezSm8a1bRDdFT9RGbHhiae8tfT2rPdEBNQ4p4VG",
+      "didDocument": {
+        "@context": [
+          "https://w3id.org/did/v1",
+          "https://w3id.org/security/suites/ed25519-2018/v1",
+          "https://w3id.org/security/suites/x25519-2019/v1"
+        ],
+        "id": "did:peer:0z6MkfnofFezSm8a1bRDdFT9RGbHhiae8tfT2rPdEBNQ4p4VG",
+        "verificationMethod": [
+          {
+            "id": "did:peer:0z6MkfnofFezSm8a1bRDdFT9RGbHhiae8tfT2rPdEBNQ4p4VG#z6MkfnofFezSm8a1bRDdFT9RGbHhiae8tfT2rPdEBNQ4p4VG",
+            "type": "Ed25519VerificationKey2018",
+            "controller": "did:peer:0z6MkfnofFezSm8a1bRDdFT9RGbHhiae8tfT2rPdEBNQ4p4VG",
+            "publicKeyBase58": "2LYcfQk1Rb5YUvNvZtBaRVjhu1NHUnCgANiJM6S3tqht"
+          }
+        ],
+        "authentication": [
+          "did:peer:0z6MkfnofFezSm8a1bRDdFT9RGbHhiae8tfT2rPdEBNQ4p4VG#z6MkfnofFezSm8a1bRDdFT9RGbHhiae8tfT2rPdEBNQ4p4VG"
+        ],
+        "assertionMethod": [
+          "did:peer:0z6MkfnofFezSm8a1bRDdFT9RGbHhiae8tfT2rPdEBNQ4p4VG#z6MkfnofFezSm8a1bRDdFT9RGbHhiae8tfT2rPdEBNQ4p4VG"
+        ],
+        "keyAgreement": [
+          {
+            "id": "did:peer:0z6MkfnofFezSm8a1bRDdFT9RGbHhiae8tfT2rPdEBNQ4p4VG#z6LSkUesKy98265ezUhGC8foKfbPrmy2RNMyrNzdMcsBmQ6u",
+            "type": "X25519KeyAgreementKey2019",
+            "controller": "did:peer:0z6MkfnofFezSm8a1bRDdFT9RGbHhiae8tfT2rPdEBNQ4p4VG",
+            "publicKeyBase58": "9oUhofLFvdMuu6KVfV9r15Nv1dRuimBpyQGwsADf42L9"
+          }
+        ],
+        "capabilityInvocation": [
+          "did:peer:0z6MkfnofFezSm8a1bRDdFT9RGbHhiae8tfT2rPdEBNQ4p4VG#z6MkfnofFezSm8a1bRDdFT9RGbHhiae8tfT2rPdEBNQ4p4VG"
+        ],
+        "capabilityDelegation": [
+          "did:peer:0z6MkfnofFezSm8a1bRDdFT9RGbHhiae8tfT2rPdEBNQ4p4VG#z6MkfnofFezSm8a1bRDdFT9RGbHhiae8tfT2rPdEBNQ4p4VG"
+        ]
+      },
+      "secret": {}
+    }
+  },
+  "MQEqKEioJempcGYup42ocV": {
+    "didDocumentMetadata": {},
+    "didRegistrationMetadata": {},
+    "didState": {
+      "state": "finished",
+      "did": "did:peer:0z6Mkh89pL5FLxKyfTbMcZXcsiyx9Dy9hbi4zw87Go4z8cyxg",
+      "didDocument": {
+        "@context": [
+          "https://w3id.org/did/v1",
+          "https://w3id.org/security/suites/ed25519-2018/v1",
+          "https://w3id.org/security/suites/x25519-2019/v1"
+        ],
+        "id": "did:peer:0z6Mkh89pL5FLxKyfTbMcZXcsiyx9Dy9hbi4zw87Go4z8cyxg",
+        "verificationMethod": [
+          {
+            "id": "did:peer:0z6Mkh89pL5FLxKyfTbMcZXcsiyx9Dy9hbi4zw87Go4z8cyxg#z6Mkh89pL5FLxKyfTbMcZXcsiyx9Dy9hbi4zw87Go4z8cyxg",
+            "type": "Ed25519VerificationKey2018",
+            "controller": "did:peer:0z6Mkh89pL5FLxKyfTbMcZXcsiyx9Dy9hbi4zw87Go4z8cyxg",
+            "publicKeyBase58": "3ftmjpzucnVCM6Wusxf2stQ9QPsrBppeF7CLxo27hmBJ"
+          }
+        ],
+        "authentication": [
+          "did:peer:0z6Mkh89pL5FLxKyfTbMcZXcsiyx9Dy9hbi4zw87Go4z8cyxg#z6Mkh89pL5FLxKyfTbMcZXcsiyx9Dy9hbi4zw87Go4z8cyxg"
+        ],
+        "assertionMethod": [
+          "did:peer:0z6Mkh89pL5FLxKyfTbMcZXcsiyx9Dy9hbi4zw87Go4z8cyxg#z6Mkh89pL5FLxKyfTbMcZXcsiyx9Dy9hbi4zw87Go4z8cyxg"
+        ],
+        "keyAgreement": [
+          {
+            "id": "did:peer:0z6Mkh89pL5FLxKyfTbMcZXcsiyx9Dy9hbi4zw87Go4z8cyxg#z6LSh1Li8eq2erVuFYubs9EhkLGkyvs22nezJRhE9PMx2Bo2",
+            "type": "X25519KeyAgreementKey2019",
+            "controller": "did:peer:0z6Mkh89pL5FLxKyfTbMcZXcsiyx9Dy9hbi4zw87Go4z8cyxg",
+            "publicKeyBase58": "6LAYcM2AZPnAAAXqLVikRk4H8nKuLBUqRSyYeviRJp2G"
+          }
+        ],
+        "capabilityInvocation": [
+          "did:peer:0z6Mkh89pL5FLxKyfTbMcZXcsiyx9Dy9hbi4zw87Go4z8cyxg#z6Mkh89pL5FLxKyfTbMcZXcsiyx9Dy9hbi4zw87Go4z8cyxg"
+        ],
+        "capabilityDelegation": [
+          "did:peer:0z6Mkh89pL5FLxKyfTbMcZXcsiyx9Dy9hbi4zw87Go4z8cyxg#z6Mkh89pL5FLxKyfTbMcZXcsiyx9Dy9hbi4zw87Go4z8cyxg"
+        ]
+      },
+      "secret": {}
+    }
+  },
+  "3diRwJhbNR1tWbZmsbmR3o": {
+    "didDocumentMetadata": {},
+    "didRegistrationMetadata": {},
+    "didState": {
+      "state": "finished",
+      "did": "did:peer:0z6Mku7Yj788TJf867aXJXT7WJKB8SvkoFBH7SWpfgwv2KDNN",
+      "didDocument": {
+        "@context": [
+          "https://w3id.org/did/v1",
+          "https://w3id.org/security/suites/ed25519-2018/v1",
+          "https://w3id.org/security/suites/x25519-2019/v1"
+        ],
+        "id": "did:peer:0z6Mku7Yj788TJf867aXJXT7WJKB8SvkoFBH7SWpfgwv2KDNN",
+        "verificationMethod": [
+          {
+            "id": "did:peer:0z6Mku7Yj788TJf867aXJXT7WJKB8SvkoFBH7SWpfgwv2KDNN#z6Mku7Yj788TJf867aXJXT7WJKB8SvkoFBH7SWpfgwv2KDNN",
+            "type": "Ed25519VerificationKey2018",
+            "controller": "did:peer:0z6Mku7Yj788TJf867aXJXT7WJKB8SvkoFBH7SWpfgwv2KDNN",
+            "publicKeyBase58": "FfHgWst1y7dd15gbqt9fTDd8dMUwqJ2kkVujrfx1Pzaz"
+          }
+        ],
+        "authentication": [
+          "did:peer:0z6Mku7Yj788TJf867aXJXT7WJKB8SvkoFBH7SWpfgwv2KDNN#z6Mku7Yj788TJf867aXJXT7WJKB8SvkoFBH7SWpfgwv2KDNN"
+        ],
+        "assertionMethod": [
+          "did:peer:0z6Mku7Yj788TJf867aXJXT7WJKB8SvkoFBH7SWpfgwv2KDNN#z6Mku7Yj788TJf867aXJXT7WJKB8SvkoFBH7SWpfgwv2KDNN"
+        ],
+        "keyAgreement": [
+          {
+            "id": "did:peer:0z6Mku7Yj788TJf867aXJXT7WJKB8SvkoFBH7SWpfgwv2KDNN#z6LSfTA7QNiAkqPdka1S37xFc9y4ybpgjPPqo4dDZcf6z2UG",
+            "type": "X25519KeyAgreementKey2019",
+            "controller": "did:peer:0z6Mku7Yj788TJf867aXJXT7WJKB8SvkoFBH7SWpfgwv2KDNN",
+            "publicKeyBase58": "4mywt4uJfNftfBdfWUSJHZkb8THa2nDgv5uY5A1aGehW"
+          }
+        ],
+        "capabilityInvocation": [
+          "did:peer:0z6Mku7Yj788TJf867aXJXT7WJKB8SvkoFBH7SWpfgwv2KDNN#z6Mku7Yj788TJf867aXJXT7WJKB8SvkoFBH7SWpfgwv2KDNN"
+        ],
+        "capabilityDelegation": [
+          "did:peer:0z6Mku7Yj788TJf867aXJXT7WJKB8SvkoFBH7SWpfgwv2KDNN#z6Mku7Yj788TJf867aXJXT7WJKB8SvkoFBH7SWpfgwv2KDNN"
+        ]
+      },
+      "secret": {}
+    }
+  }
+}
